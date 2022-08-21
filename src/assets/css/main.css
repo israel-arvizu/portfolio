@@ -7,6 +7,12 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+.under-col-subtitle{
+	font-size: 16px;
+	color: #b2b2c3;
+	margin: 0;
+}
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -280,12 +286,24 @@ input, select, textarea {
 				max-width: 100% !important;
 			}
 
+			.under-col-subtitle{
+				font-size: 15px;
+				color: #b2b2c3;
+				margin: 0;
+			}
+
 		}
 
 		@media screen and (max-width: 480px) {
 
 			.container {
 				max-width: calc(100% - 3em);
+			}
+
+			.under-col-subtitle{
+				font-size: 13px;
+				color: #b2b2c3;
+				margin: 0;
 			}
 
 		}

@@ -71,17 +71,43 @@ export default function SplashPage() {
                                     <p>One of the nation's top transfer schools located in Orange County, CA</p>
                                 </header>
                                 <p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
-                                <hr />
-                                <h2>Heading Level 2</h2>
-                                <h3>Heading Level 3</h3>
-                                <h4>Heading Level 4</h4>
-                                <h5>Heading Level 5</h5>
-                                <h6>Heading Level 6</h6>
-                                <hr />
-                                <h5>Blockquote</h5>
-                                <blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
-                                <h5>Preformatted</h5>
                             </section>
+                        <hr></hr>
+                        <section id='five'>
+                            <h2>Work Experience</h2>
+                            <div class="row">
+                                <div class="col-6 col-12-xsmall">
+                                    <h4 style={{marginBottom: '3px'}}>Wells Fargo</h4>
+                                    <p className="under-col-subtitle">Teller, Sept 2021 - Feb 2022, Orange County, CA</p>
+                                    <ul>
+                                        <li>Dolor pulvinar etiam magna etiam.</li>
+                                        <li>Sagittis adipiscing lorem eleifend.</li>
+                                        <li>Felis enim feugiat dolore viverra.</li>
+                                    </ul>
+                                    <h4 style={{marginBottom: '3px'}}>Target</h4>
+                                    <ul>
+                                        <li>Dolor pulvinar etiam magna etiam.</li>
+                                        <li>Sagittis adipiscing lorem eleifend.</li>
+                                        <li>Felis enim feugiat dolore viverra.</li>
+                                    </ul>
+                                </div>
+                                <div class="col-6 col-12-xsmall">
+                                    <h4 style={{marginBottom: '3px'}}>Swifty Gadgets LLC</h4>
+                                    <ul>
+                                        <li>Dolor pulvinar etiam magna etiam.</li>
+                                        <li>Sagittis adipiscing lorem eleifend.</li>
+                                        <li>Felis enim feugiat dolore viverra.</li>
+                                    </ul>
+                                    <h4 style={{marginBottom: '3px'}}>Macys</h4>
+                                    <ul>
+                                        <li>Dolor pulvinar etiam magna etiam.</li>
+                                        <li>Sagittis adipiscing lorem eleifend.</li>
+                                        <li>Felis enim feugiat dolore viverra.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </section>
+                        </section>
 
                     {/* <!-- Three --> */}
                         <section id="three">
@@ -400,7 +426,6 @@ export default function SplashPage() {
                                 <p><span class="image left"><img src="images/avatar.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
                                 <p><span class="image right"><img src="images/avatar.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
                             </section>
-                        </section>
 
                 </div>
 
