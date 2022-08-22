@@ -21,10 +21,10 @@ export default function SplashPage() {
                             <header class="major">
                                 <h2>About Me</h2>
                             </header>
-                            <p>Accumsan orci faucibus id eu lorem semper. Eu ac iaculis ac nunc nisi lorem vulputate lorem neque cubilia ac in adipiscing in curae lobortis tortor primis integer massa adipiscing id nisi accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque cubilia.</p>
-                            <ul class="actions">
+                            <p>Since I was a young boy I knew my passion was to be involved with tech and what better way to do it than to be a software engineer, since my first computer science class in high school learning Microsoft Visual Basic, It sparked my love for coding, entering college immediately I pursued my associates in computer science learning C++ and Java alongside my general-Ed classes. All this while I worked part-time jobs on the side with companies such as Wells Fargo, Target, Macys, Hollister, etc. Even though these jobs taught me a lot of experience in the real world I simply knew that working customer service wasn't for me and couldn't wait for my day to come where I start my programming career. <br/> I realized that although college is a good route to enter the tech world, it is not the only route; so in 2022 I took a break from college to extend my knowledge as a software engineer and completed a 6-month boot-camp called AppAcademy. I learned extensive knowledge on languages and frameworks such as but not limited to Javascript, Python, React, Redux, SQL, Node, HTML, CSS, AWS where I can truly say I am ready to apply this in the workspace. I love to create things and solve problems which is why my love for computer science is so heavy.</p>
+                            {/* <ul class="actions">
                                 <li><a href="#" class="button">Learn More</a></li>
-                            </ul>
+                            </ul> */}
                         </section>
                     {/* <!-- Two --> */}
                         <section id="two">
@@ -33,26 +33,26 @@ export default function SplashPage() {
                                 <article class="col-6 col-12-xsmall work-item">
                                     <a href="https://insta-flick.herokuapp.com/" class="image fit thumb"><img src="/static/Instaflick-home.JPG" alt="" /></a>
                                     <h3>Instaflick</h3>
-                                    <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+                                    <p>Instaflick is a Instagram clone utilizing Javascript, Python, SQL, React, Redux, and many other tools. Users are allowed to create posts and comments and search for their friends. </p>
                                 </article>
                                 <article class="col-6 col-12-xsmall work-item">
                                     <a href="https://hipresort.herokuapp.com/" class="image fit thumb"><img src="/static/HipResort.JPG" alt="" /></a>
                                     <h3>HipResort</h3>
-                                    <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+                                    <p>HipResort is a web application for booking and hosting resorts all over the world. This project was inspired by HipCamp and has a very similar style. </p>
                                 </article>
                                 <article class="col-6 col-12-xsmall work-item">
                                     <a href="https://alphahood.herokuapp.com/" class="image fit thumb"><img src="/static/Alphahood.JPG" alt="" /></a>
                                     <h3>AlphaHood</h3>
-                                    <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+                                    <p>AlphaHood is a mock stock broker website that takes inspiration from the popular website RobinHood. Similarly to RobinHood users have a wallets, watchlists, portfolio's, and to increase the experience even more AlphaHood uses a API package (Yfinance) to fetch the latest stock market data </p>
                                 </article>
                                 <article class="col-6 col-12-xsmall work-item">
                                     <a href="https://musichunt-app.herokuapp.com/" class="image fit thumb"><img src="/static/MusicHunt.JPG" alt="" /></a>
                                     <h3>Music Hunt</h3>
-                                    <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+                                    <p>Music Hunt, a "Product Hunt Co." clone, is a website where you can browse your favorite albums and share your music with other music lovers by favoriting albums, showing off your favorite's, and posting reviews.</p>
                                 </article>
                             </div>
                             <ul class="actions">
-                                <li><a href="#" class="button">Full Portfolio</a></li>
+                                <li><a href="https://www.linkedin.com/in/israel-arvizu/" class="button">Full Portfolio</a></li>
                             </ul>
                         </section>
 
@@ -64,12 +64,12 @@ export default function SplashPage() {
                                     <h4 style={{color: "red"}}>App Academy</h4>
                                     <p>6-month intensive program on full-stack development with a1000 hours of curriculum</p>
                                 </header>
-                                <p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
+                                <p>To be filled out more about my journey...</p>
                                 <header>
                                     <h4 style={{color: "navy"}}>Orange Coast College</h4>
                                     <p>One of the nation's top transfer schools located in Orange County, CA</p>
                                 </header>
-                                <p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
+                                <p>To be filled out more about my journey...</p>
                             </section>
                         <hr></hr>
                         <section id='five'>
