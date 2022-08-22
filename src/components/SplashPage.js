@@ -62,7 +62,7 @@ export default function SplashPage() {
                             <section>
                                 <header>
                                     <h4 style={{color: "red"}}>App Academy</h4>
-                                    <p>A intensive 6-month program to develop skills to be a full stack engineer</p>
+                                    <p>6-month intensive program on full-stack development with a1000 hours of curriculum</p>
                                 </header>
                                 <p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
                                 <header>
@@ -77,34 +77,34 @@ export default function SplashPage() {
                             <div class="row">
                                 <div class="col-6 col-12-xsmall">
                                     <h4 style={{marginBottom: '3px'}}>Wells Fargo</h4>
-                                    <p className="under-col-subtitle">Teller, Sept 2021 - Feb 2022, Orange County, CA</p>
+                                    <p className="under-col-subtitle">Teller, Sept 2021 - Feb 2022, Santa Ana, CA</p>
                                     <ul>
-                                        <li>Dolor pulvinar etiam magna etiam.</li>
-                                        <li>Sagittis adipiscing lorem eleifend.</li>
-                                        <li>Felis enim feugiat dolore viverra.</li>
+                                        <li>Provide excellent service in finances and customer service.</li>
+                                        <li>Work with management to improve customer service, teamwork, and problem solving.</li>
+                                        <li>Efficient use of personal computer applications and the adaptation of new required software.</li>
                                     </ul>
                                     <h4 style={{marginBottom: '3px'}}>Target</h4>
-                                    <p className="under-col-subtitle">Fufillment Expert, Feb 2021 - Aug 2022, Orange County, CA</p>
+                                    <p className="under-col-subtitle">Fufillment Expert, May 2020 - Aug 2021, Santa Ana, CA</p>
                                     <ul>
-                                        <li>Dolor pulvinar etiam magna etiam.</li>
-                                        <li>Sagittis adipiscing lorem eleifend.</li>
-                                        <li>Felis enim feugiat dolore viverra.</li>
+                                        <li>Locating and extracting merchandise from shelves and storage areas.</li>
+                                        <li>Assist and supervise as lead when the department leader is not available.</li>
+                                        <li>Assist guests with any needs or requests that are possible.</li>
                                     </ul>
                                 </div>
                                 <div class="col-6 col-12-xsmall">
                                     <h4 style={{marginBottom: '3px'}}>Swifty Gadgets LLC</h4>
-                                    <p className="under-col-subtitle">CEO/Owner, Feb 2021 - Aug 2022, Orange County, CA</p>
+                                    <p className="under-col-subtitle">CEO/Owner, Apr 2020 - Aug 2022, Orange County, CA</p>
                                     <ul>
-                                        <li>Dolor pulvinar etiam magna etiam.</li>
-                                        <li>Sagittis adipiscing lorem eleifend.</li>
-                                        <li>Felis enim feugiat dolore viverra.</li>
+                                        <li>Target customers to increase sales and interactions.</li>
+                                        <li>Keep track of all finances and investments within the company.</li>
+                                        <li>Reach new customers with the use of social media and other merchant platforms.</li>
                                     </ul>
                                     <h4 style={{marginBottom: '3px'}}>Macys</h4>
-                                    <p className="under-col-subtitle">Suit Specialist, Sept 2021 - Feb 2022, Orange County, CA</p>
+                                    <p className="under-col-subtitle">Suit Specialist, March 2019 - Feb 2020, Orange County, CA</p>
                                     <ul>
-                                        <li>Dolor pulvinar etiam magna etiam.</li>
-                                        <li>Sagittis adipiscing lorem eleifend.</li>
-                                        <li>Felis enim feugiat dolore viverra.</li>
+                                        <li>Assist customers in all aspects of service within my designated department. </li>
+                                        <li>Operate POS, handheld device, and any other technology devices required.</li>
+                                        <li>Meet all sales & CC sign up goals assigned to us by management.</li>
                                     </ul>
                                 </div>
                             </div>
