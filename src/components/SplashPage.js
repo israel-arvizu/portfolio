@@ -135,7 +135,7 @@ export default function SplashPage() {
                             </div>
                         </section>
 
-                        <section>
+                        {/* <section>
 
                             <h4>Text</h4>
                                 <p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
@@ -413,7 +413,7 @@ export default function SplashPage() {
                                 <h5>Left &amp; Right</h5>
                                 <p><span class="image left"><img src="images/avatar.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
                                 <p><span class="image right"><img src="images/avatar.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
-                            </section>
+                            </section> */}
 
                 </div>
 
@@ -421,13 +421,13 @@ export default function SplashPage() {
                 <footer id="footer">
                     <div class="inner">
                         <ul class="icons">
-                            <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-                            <li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
-                            <li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
-                            <li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+                            <li><a href="https://www.linkedin.com/in/israel-arvizu/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+                            <li><a href="https://github.com/israel-arvizu" class="icon brands fa-github"><span class="label">Github</span></a></li>
+                            <li><a href="https://angel.co/u/israel-arvizu" class="icon brands fa-angellist"><span class="label">AngelList</span></a></li>
+                            <li><a href="mailto:israelarvizuofficial@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
                         </ul>
                         <ul class="copyright">
-                            <li>&copy; Untitled</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+                            <li>&copy;Israel Arvizu 2022</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
                         </ul>
                     </div>
                 </footer>
