@@ -8,11 +8,11 @@ export default function SplashPage() {
                 <header id="header">
                     <div class="inner">
                         <a href="#" class="image avatar"><img src="/static/IsraelHeadShot.JPG" alt="" /></a>
-                        <h1><strong>My name is Israel</strong>, a 21 year old<br />
-                        junior developer with a passion for full stack engineering<br />
+                        <h1><strong>My name is Israel</strong>, a 21 year old, <br />
+                         junior developer with a passion for full stack engineering. <br />
                         Connect with me in <a href="https://www.linkedin.com/in/israel-arvizu/">Linked In</a>.</h1>
                     </div>
-                    <footer id="footer">
+                    <footer id="footer-top">
                         <div class="inner">
                             <ul class="icons">
                                 <li><a href="https://www.linkedin.com/in/israel-arvizu/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
@@ -21,7 +21,7 @@ export default function SplashPage() {
                                 <li><a href="mailto:israelarvizuofficial@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
                             </ul>
                             <ul class="copyright">
-                                <li>&copy;Israel Arvizu 2022</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+                                <li>&copy;Israel Arvizu 2022</li>
                             </ul>
                         </div>
                     </footer>
@@ -427,8 +427,23 @@ export default function SplashPage() {
                                 <p><span class="image left"><img src="images/avatar.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
                                 <p><span class="image right"><img src="images/avatar.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
                             </section> */}
+
                 </div>
 
+            {/* <!-- Footer --> */}
+                <footer id="footer">
+                    <div class="inner">
+                        <ul class="icons">
+                            <li><a href="https://www.linkedin.com/in/israel-arvizu/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+                            <li><a href="https://github.com/israel-arvizu" class="icon brands fa-github"><span class="label">Github</span></a></li>
+                            <li><a href="https://angel.co/u/israel-arvizu" class="icon brands fa-angellist"><span class="label">AngelList</span></a></li>
+                            <li><a href="mailto:israelarvizuofficial@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+                        </ul>
+                        <ul class="copyright">
+                            <li>&copy;Israel Arvizu 2022</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+                        </ul>
+                    </div>
+                </footer>
 
             {/* <!-- Scripts --> */}
                 <script src="assets/js/jquery.min.js"></script>
