@@ -7,8 +7,8 @@ export default function SplashPage() {
             {/* <!-- Header --> */}
                 <header id="header">
                     <div class="inner">
-                        <a href="#" class="image avatar"><img src="/static/IsraelHeadShot.JPG" alt="" /></a>
-                        <h1><strong>My name is Israel</strong>, a 21 year old, <br />
+                        <a href="#" class="image avatar"><img id='profile-picture' src="/static/IsraelHeadShot.JPG" alt="" /></a>
+                        <h1 style={{color: "#ece9e9c5"}}><strong>My name is Israel</strong>, a 21 year old, <br />
                          junior developer with a passion for full stack engineering. <br />
                         Connect with me in <a href="https://www.linkedin.com/in/israel-arvizu/">Linked In</a>.</h1>
                     </div>
@@ -34,7 +34,13 @@ export default function SplashPage() {
                             <header class="major">
                                 <h2>About Me</h2>
                             </header>
-                            <p>Since I was a young boy I knew my passion was to be involved with tech and what better way to do it than to be a software engineer, since my first computer science class in high school learning Microsoft Visual Basic, It sparked my love for coding, entering college immediately I pursued my associates in computer science learning C++ and Java alongside my general-Ed classes. All this while I worked part-time jobs on the side with companies such as Wells Fargo, Target, Macys, Hollister, etc. Even though these jobs taught me a lot of experience in the real world I simply knew that working customer service wasn't for me and couldn't wait for my day to come where I start my programming career. <br/> I realized that although college is a good route to enter the tech world, it is not the only route; so in 2022 I took a break from college to extend my knowledge as a software engineer and completed a 6-month boot-camp called AppAcademy. I learned extensive knowledge on languages and frameworks such as but not limited to Javascript, Python, React, Redux, SQL, Node, HTML, CSS, AWS where I can truly say I am ready to apply this in the workspace. I love to create things and solve problems which is why my love for computer science is so heavy.</p>
+                            <p>Since I was a young boy I knew my passion was to be involved with tech and what better way to do it than to be a software engineer.
+                                Entering college immediately I pursued my associates in computer science learning C++ and Java alongside my general-Ed classes.
+                                All this while I worked part-time jobs on the side with companies such as Wells Fargo, Target, Macys, Hollister, etc.
+                                Even though these jobs taught me a lot of experience in the real world I simply knew that working customer service wasn't for me and couldn't wait for my day to come where I start my programming career.
+                                <br/> I realized that although college is a good route to enter the tech world, it is not the only route; so in 2022 I took a break from college to broaden my knowledge in the SWE field and
+                                completed a 6-month boot-camp called AppAcademy. I learned extensive knowledge on languages and frameworks where I can truly say I am ready to apply this in the workspace.
+                                I love to create things and solve problems which is why my love for computer science is so heavy and will continue to expand over my lifetime.</p>
                             {/* <ul class="actions">
                                 <li><a href="#" class="button">Learn More</a></li>
                             </ul> */}
@@ -122,7 +128,16 @@ export default function SplashPage() {
                                 </div>
                             </div>
                         </section>
+                        <hr></hr>
+                        <section id="resume-holder">
+                            <h2>Resume</h2>
+                            <div class="box alt">
+                                <img id='resume-picture' src="/static/Israel-Arvizu-resume.jpg" alt="resume"/>
+                            </div>
+                            <a href="/static/Israel-Arvizu-pdf-resume.pdf" class="button primary icon solid fa-download" download="Israel_Arvizu_Resume">Download</a>
                         </section>
+                        </section>
+
 
                     {/* <!-- Three --> */}
                         <section id="three">
@@ -148,7 +163,7 @@ export default function SplashPage() {
                             </div>
                         </section>
 
-                        {/* <section>
+                        <section>
 
                             <h4>Text</h4>
                                 <p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
@@ -408,7 +423,6 @@ export default function SplashPage() {
 
                             <section>
                                 <h4>Image</h4>
-                                <h5>Fit</h5>
                                 <div class="box alt">
                                     <div class="row gtr-50 gtr-uniform">
                                         <div class="col-12"><span class="image fit"><img src="images/fulls/05.jpg" alt="" /></span></div>
@@ -426,7 +440,7 @@ export default function SplashPage() {
                                 <h5>Left &amp; Right</h5>
                                 <p><span class="image left"><img src="images/avatar.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
                                 <p><span class="image right"><img src="images/avatar.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
-                            </section> */}
+                            </section>
 
                 </div>
 

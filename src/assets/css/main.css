@@ -2164,6 +2164,17 @@ input, select, textarea {
 				width: 100%;
 			}
 
+		#resume-picture{
+			width: 100%;
+		}
+
+		#resume-holder{
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+		}
+
 /* List */
 
 	ol {
@@ -2184,6 +2195,8 @@ input, select, textarea {
 
 		ul li {
 			padding-left: 0.5em;
+			font-size: medium;
+			line-height: 2rem;
 		}
 
 		ul.alt {
@@ -2611,7 +2624,7 @@ input, select, textarea {
 		justify-content: space-between;
 		background-color: #1f1815;
 		background-attachment: scroll;
-		background-image: url("https://images.unsplash.com/photo-1660739205131-07edfc6c2650?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80");
+		background-image: url("/public/static/back-blur.png");
 		background-position: top left, top left;
 		background-repeat:no-repeat;
 		background-size:cover, 150%;
@@ -3033,6 +3046,8 @@ input, select, textarea {
 				font-size: 12pt;
 			}
 
+
+
 	}
 
 /* Large */
@@ -3076,6 +3091,7 @@ input, select, textarea {
 				padding: 6em 3em 3em 3em;
 				width: calc(100% - 30%);
 			}
+
 
 	}
 
@@ -3254,6 +3270,10 @@ input, select, textarea {
 				}
 
 		/* Footer */
+
+			#footer-top{
+				display: none;
+			}
 
 			#footer .copyright li {
 				border-left-width: 0;
