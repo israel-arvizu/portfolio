@@ -80,10 +80,14 @@ export default function SplashPage() {
 
                             <section>
                                 <header>
-                                    <h4 style={{color: "red"}}>App Academy</h4>
-                                    <p>6-month intensive program on full-stack development with a1000 hours of curriculum</p>
+                                    <h3 style={{color: "red"}}>App Academy</h3>
+                                    <p style={{fontSize: "20px", marginBottom: "10px"}}>6-month intensive program on full-stack development with a 1000 hours of curriculum</p>
                                 </header>
-                                <p>To be filled out more about my journey...</p>
+                                <p style={{fontSize: "20px"}}>To increase my knowledge of being a software developer and to get myself ready to enter the workforce I joined App Academy.
+                                    This bootcamp showed me what it is to be a developer in the real-world, working Monday-Friday 8am to 5pm,
+                                    collaborating as a group for projects, using platforms like slack to communicate with staff and classmates,
+                                    and many more things that prepped me for the workforce.
+                                </p>
                                 <header>
                                     <h4 style={{color: "navy"}}>Orange Coast College</h4>
                                     <p>One of the nation's top transfer schools located in Orange County, CA</p>
@@ -130,13 +134,41 @@ export default function SplashPage() {
                         </section>
                         <hr></hr>
                         <section id="resume-holder">
-                            <h2>Resume</h2>
                             <div class="box alt">
+                                <div class="row gtr-50 gtr-uniform">
+                                    {/* <div class="col-12"><span class="image fit"><img src="/static/resume-heading.png" alt="" /></span></div> */}
+                                </div>
                                 <img id='resume-picture' src="/static/Israel-Arvizu-resume.jpg" alt="resume"/>
                             </div>
                             <a href="/static/Israel-Arvizu-pdf-resume.pdf" class="button primary icon solid fa-download" download="Israel_Arvizu_Resume">Download</a>
                         </section>
                         </section>
+
+                        <section>
+                                <div class="box alt">
+                                    <div class="row gtr-50 gtr-uniform">
+                                        <div class="col-12"><span class="image fit"><img src="/static/TechnicalHeading.png" alt="" /></span></div>
+                                        <div class="col-2"><span class="image fit"><img id="image-skill-block" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" /></span></div>
+                                        <div class="col-2"><span class="image fit"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-plain.svg" /></span></div>
+                                        <div class="col-2"><span class="image fit"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-plain.svg" /></span></div>
+                                        <div class="col-2"><span class="image fit"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" /></span></div>
+                                        <div class="col-2"><span class="image fit"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg" /></span></div>
+                                        <div class="col-2"><span class="image fit"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg" /></span></div>
+                                        <div class="col-2"><span class="image fit"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-plain.svg" /></span></div>
+                                        <div class="col-2"><span class="image fit"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlalchemy/sqlalchemy-plain.svg" /></span></div>
+                                        <div class="col-2"><span class="image fit"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sequelize/sequelize-original.svg" /></span></div>
+                                        <div class="col-2"><span class="image fit"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg" /></span></div>
+                                        <div class="col-2"><span class="image fit"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original-wordmark.svg" /></span></div>
+                                        <div class="col-2"><span class="image fit"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-plain-wordmark.svg" /></span></div>
+                                        <div class="col-2"><span class="image fit"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-plain.svg" /></span></div>
+                                        <div class="col-2"><span class="image fit"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-plain.svg" /></span></div>
+                                        <div class="col-2"><span class="image fit"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain.svg" /></span></div>
+                                        <div class="col-2"><span class="image fit"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" /></span></div>
+                                        <div class="col-2"><span class="image fit"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" /></span></div>
+                                    </div>
+                                </div>
+                            </section>
+
 
 
                     {/* <!-- Three --> */}
@@ -163,7 +195,7 @@ export default function SplashPage() {
                             </div>
                         </section>
 
-                        <section>
+                        {/* <section>
 
                             <h4>Text</h4>
                                 <p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
@@ -440,7 +472,7 @@ export default function SplashPage() {
                                 <h5>Left &amp; Right</h5>
                                 <p><span class="image left"><img src="images/avatar.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
                                 <p><span class="image right"><img src="images/avatar.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
-                            </section>
+                            </section> */}
 
                 </div>
 

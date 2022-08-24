@@ -2062,12 +2062,28 @@ input, select, textarea {
 		position: relative;
 	}
 
+	#font-icons{
+		color: rgb(34, 37, 35);
+		font-size:3rem;
+	}
+
+	#image-skill-block{
+		color: rgb(66, 66, 66);
+	}
+
+	/* @media screen and (max-width: 500px) {
+		#font-icons{
+			color: rgb(34, 37, 35);
+			font-size: 1.5rem;
+		}
+	} */
+
 		.image:before {
 			-moz-transition: opacity 0.2s ease-in-out;
 			-webkit-transition: opacity 0.2s ease-in-out;
 			-ms-transition: opacity 0.2s ease-in-out;
 			transition: opacity 0.2s ease-in-out;
-			background: url("/public/static/overlay.png");
+			/* background: url("/public/static/overlay.png"); */
 			border-radius: 0.35em;
 			content: '';
 			display: block;
@@ -2701,6 +2717,12 @@ input, select, textarea {
 		}
 
 
+	}
+
+	@media screen and (min-width: 481px) and (max-width:980px) {
+		#footer-top{
+			display: none;
+		}
 	}
 
 	#footer .icons {
