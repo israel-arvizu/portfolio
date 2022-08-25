@@ -2182,6 +2182,8 @@ input, select, textarea {
 
 		#resume-picture{
 			width: 100%;
+			border: 3px solid #bababa;
+			border-radius: 5px;
 		}
 
 		#resume-holder{

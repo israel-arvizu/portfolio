@@ -32,14 +32,14 @@ export default function SplashPage() {
                     {/* <!-- One --> */}
                         <section id="one">
                             <header class="major">
-                                <h2>About Me</h2>
+                                <h2 style={{marginBottom: "10px"}}>About Me</h2>
                             </header>
-                            <p>Since I was a young boy I knew my passion was to be involved with tech and what better way to do it than to be a software engineer.
+                            <p style={{fontSize: "20px"}}>At a very young age I knew my passion was to be involved with tech and what better way to do it than to be a software engineer.
                                 Entering college immediately I pursued my associates in computer science learning C++ and Java alongside my general-Ed classes.
                                 All this while I worked part-time jobs on the side with companies such as Wells Fargo, Target, Macys, Hollister, etc.
-                                Even though these jobs taught me a lot of experience in the real world I simply knew that working customer service wasn't for me and couldn't wait for my day to come where I start my programming career.
+                                Even though these jobs taught me a lot of experience in the real world I simply knew that working customer service wasn't for me and couldn't wait for the day to come where I would start my programming career.
                                 <br/> I realized that although college is a good route to enter the tech world, it is not the only route; so in 2022 I took a break from college to broaden my knowledge in the SWE field and
-                                completed a 6-month boot-camp called AppAcademy. I learned extensive knowledge on languages and frameworks where I can truly say I am ready to apply this in the workspace.
+                                completed a 6-month boot-camp called AppAcademy. I learned extensive knowledge on languages and frameworks where I can truly say I am a full-stack developer.
                                 I love to create things and solve problems which is why my love for computer science is so heavy and will continue to expand over my lifetime.</p>
                             {/* <ul class="actions">
                                 <li><a href="#" class="button">Learn More</a></li>
@@ -83,16 +83,18 @@ export default function SplashPage() {
                                     <h3 style={{color: "red"}}>App Academy</h3>
                                     <p style={{fontSize: "20px", marginBottom: "10px"}}>6-month intensive program on full-stack development with a 1000 hours of curriculum</p>
                                 </header>
-                                <p style={{fontSize: "20px"}}>To increase my knowledge of being a software developer and to get myself ready to enter the workforce I joined App Academy.
-                                    This bootcamp showed me what it is to be a developer in the real-world, working Monday-Friday 8am to 5pm,
-                                    collaborating as a group for projects, using platforms like slack to communicate with staff and classmates,
-                                    and many more things that prepped me for the workforce.
+                                <p style={{fontSize: "20px"}}>In journey to expand my knowledge of being a software developer and get myself ready to enter the workforce I joined App Academy.
+                                    This bootcamp showed me what it is to be in the enviorment of a developer, working Monday-Friday 8am to 5pm,
+                                    collaborating with groups for projects, using platforms like slack to communicate with staff and classmates,
+                                    and many more things that prepped me for the workforce. This academy allowed me to refine my skills and further my knowdlege as a SWD.
                                 </p>
                                 <header>
                                     <h4 style={{color: "navy"}}>Orange Coast College</h4>
-                                    <p>One of the nation's top transfer schools located in Orange County, CA</p>
+                                    <p style={{fontSize: "20px", marginBottom: "10px"}}>One of the nation's top transfer schools located in Costa Mesa, CA</p>
                                 </header>
-                                <p>To be filled out more about my journey...</p>
+                                <p style={{fontSize: "20px"}}>My professional journey to be a developer started at Orange Coast College. I entered as a computer science major and began learning from the basics.
+                                    During my time at OCC I learned C++ and Java and I applied these skills in App Academy which helped greatly. I took a break from college to stricly focus
+                                    into being a developer and I plan on going back in the near future to complete my Associates which is nearly completed.</p>
                             </section>
                         <hr></hr>
                         <section id='five'>
