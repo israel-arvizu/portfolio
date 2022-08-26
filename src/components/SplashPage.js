@@ -186,7 +186,7 @@ export default function SplashPage() {
                                         </li>
                                         <li>
                                             <h3 class="icon solid fa-mobile-alt"><span class="label">Phone</span></h3>
-                                            714-623-7454
+                                            714-804-6052
                                         </li>
                                         <li>
                                             <h3 class="icon solid fa-envelope"><span class="label">Email</span></h3>
