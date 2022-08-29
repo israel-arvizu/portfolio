@@ -10,7 +10,7 @@ export default function SplashPage() {
                         <a href="#" class="image avatar"><img id='profile-picture' src="/static/IsraelHeadShot.JPG" alt="" /></a>
                         <h1 style={{color: "#ece9e9c5"}}><strong>My name is Israel</strong>, a 21 year old, <br />
                          junior developer with a passion for full stack engineering. <br />
-                        Connect with me in <a href="https://www.linkedin.com/in/israel-arvizu/">Linked In</a>.</h1>
+                        Connect with me on <a href="https://www.linkedin.com/in/israel-arvizu/">Linked In</a>.</h1>
                     </div>
                     <footer id="footer-top">
                         <div class="inner">
