@@ -3,24 +3,24 @@ import '../assets/css/main.css'
 
 export default function SplashPage() {
     return (
-        <body class="is-preload">
+        <div className="is-preload">
             {/* <!-- Header --> */}
                 <header id="header">
-                    <div class="inner">
-                        <a href="#" class="image avatar"><img id='profile-picture' src="/static/IsraelHeadShot.JPG" alt="" /></a>
+                    <div className="inner">
+                        <a href="#" className="image avatar"><img id='profile-picture' src="/static/IsraelHeadShot.JPG" alt="" /></a>
                         <h1 style={{color: "#ece9e9c5"}}><strong>My name is Israel</strong>, a 21 year old, <br />
                          junior developer with a passion for full stack engineering. <br />
                         Connect with me on <a href="https://www.linkedin.com/in/israel-arvizu/">Linked In</a>.</h1>
                     </div>
                     <footer id="footer-top">
-                        <div class="inner">
-                            <ul class="icons">
-                                <li><a href="https://www.linkedin.com/in/israel-arvizu/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-                                <li><a href="https://github.com/israel-arvizu" class="icon brands fa-github"><span class="label">Github</span></a></li>
-                                <li><a href="https://angel.co/u/israel-arvizu" class="icon brands fa-angellist"><span class="label">AngelList</span></a></li>
-                                <li><a href="mailto:israelarvizuofficial@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+                        <div className="inner">
+                            <ul className="icons">
+                                <li><a href="https://www.linkedin.com/in/israel-arvizu/" className="icon brands fa-linkedin"><span className="label">LinkedIn</span></a></li>
+                                <li><a href="https://github.com/israel-arvizu" className="icon brands fa-github"><span className="label">Github</span></a></li>
+                                <li><a href="https://angel.co/u/israel-arvizu" className="icon brands fa-angellist"><span className="label">AngelList</span></a></li>
+                                <li><a href="mailto:israelarvizuofficial@gmail.com" className="icon solid fa-envelope"><span className="label">Email</span></a></li>
                             </ul>
-                            <ul class="copyright">
+                            <ul className="copyright">
                                 <li>&copy;Israel Arvizu 2022</li>
                             </ul>
                         </div>
@@ -31,47 +31,47 @@ export default function SplashPage() {
                 <div id="main">
                     {/* <!-- One --> */}
                         <section id="one">
-                            <header class="major">
+                            <header className="major">
                                 <h2 style={{marginBottom: "10px"}}>About Me</h2>
                             </header>
                             <p style={{fontSize: "20px"}}>At a very young age I knew my passion was to be involved with tech and what better way to do it than to be a software engineer.
-                                Entering college immediately I pursued my associates in computer science learning C++ and Java alongside my general-Ed classes.
+                                Entering college immediately I pursued my associates in computer science learning C++ and Java alongside my general-Ed classNamees.
                                 All this while I worked part-time jobs on the side with companies such as Wells Fargo, Target, Macys, Hollister, etc.
                                 Even though these jobs taught me a lot of experience in the real world I simply knew that working customer service wasn't for me and couldn't wait for the day to come where I would start my programming career.
                                 <br/> I realized that although college is a good route to enter the tech world, it is not the only route; so in 2022 I took a break from college to broaden my knowledge in the SWE field and
                                 completed a 6-month boot-camp called AppAcademy. I learned extensive knowledge on languages and frameworks where I can truly say I am a full-stack developer.
                                 I love to create things and solve problems which is why my love for computer science is so heavy and will continue to expand over my lifetime.</p>
-                            {/* <ul class="actions">
-                                <li><a href="#" class="button">Learn More</a></li>
+                            {/* <ul className="actions">
+                                <li><a href="#" className="button">Learn More</a></li>
                             </ul> */}
                         </section>
                     {/* <!-- Two --> */}
                         <section id="two">
                             <h2>Recent Work</h2>
-                            <div class="row">
-                                <article class="col-6 col-12-xsmall work-item">
-                                    <a href="https://insta-flick.herokuapp.com/" class="image fit thumb"><img src="/static/Instaflick-home.JPG" alt="" /></a>
+                            <div className="row">
+                                <article className="col-6 col-12-xsmall work-item">
+                                    <a href="https://insta-flick.herokuapp.com/" className="image fit thumb"><img src="/static/Instaflick-home.JPG" alt="" /></a>
                                     <h3>Instaflick</h3>
                                     <p>Instaflick is a Instagram clone utilizing Javascript, Python, SQL, React, Redux, and many other tools. Users are allowed to create posts and comments and search for their friends. </p>
                                 </article>
-                                <article class="col-6 col-12-xsmall work-item">
-                                    <a href="https://hipresort.herokuapp.com/" class="image fit thumb"><img src="/static/HipResort.JPG" alt="" /></a>
+                                <article className="col-6 col-12-xsmall work-item">
+                                    <a href="https://hipresort.herokuapp.com/" className="image fit thumb"><img src="/static/HipResort.JPG" alt="" /></a>
                                     <h3>HipResort</h3>
                                     <p>HipResort is a web application for booking and hosting resorts all over the world. This project was inspired by HipCamp and has a very similar style. </p>
                                 </article>
-                                <article class="col-6 col-12-xsmall work-item">
-                                    <a href="https://alphahood.herokuapp.com/" class="image fit thumb"><img src="/static/Alphahood.JPG" alt="" /></a>
+                                <article className="col-6 col-12-xsmall work-item">
+                                    <a href="https://alphahood.herokuapp.com/" className="image fit thumb"><img src="/static/Alphahood.JPG" alt="" /></a>
                                     <h3>AlphaHood</h3>
                                     <p>AlphaHood is a mock stock broker website that takes inspiration from the popular website RobinHood. Similarly to RobinHood users have a wallets, watchlists, portfolio's, and to increase the experience even more AlphaHood uses a API package (Yfinance) to fetch the latest stock market data </p>
                                 </article>
-                                <article class="col-6 col-12-xsmall work-item">
-                                    <a href="https://musichunt-app.herokuapp.com/" class="image fit thumb"><img src="/static/MusicHunt.JPG" alt="" /></a>
+                                <article className="col-6 col-12-xsmall work-item">
+                                    <a href="https://musichunt-app.herokuapp.com/" className="image fit thumb"><img src="/static/MusicHunt.JPG" alt="" /></a>
                                     <h3>Music Hunt</h3>
                                     <p>Music Hunt, a "Product Hunt Co." clone, is a website where you can browse your favorite albums and share your music with other music lovers by favoriting albums, showing off your favorite's, and posting reviews.</p>
                                 </article>
                             </div>
-                            <ul class="actions">
-                                <li><a href="https://www.linkedin.com/in/israel-arvizu/" class="button">Full Portfolio</a></li>
+                            <ul className="actions">
+                                <li><a href="https://www.linkedin.com/in/israel-arvizu/" className="button">Full Portfolio</a></li>
                             </ul>
                         </section>
 
@@ -85,7 +85,7 @@ export default function SplashPage() {
                                 </header>
                                 <p style={{fontSize: "20px"}}>In journey to expand my knowledge of being a software developer and get myself ready to enter the workforce I joined App Academy.
                                     This bootcamp showed me what it is to be in the enviorment of a developer, working Monday-Friday 8am to 5pm,
-                                    collaborating with groups for projects, using platforms like slack to communicate with staff and classmates,
+                                    collaborating with groups for projects, using platforms like slack to communicate with staff and classNamemates,
                                     and many more things that prepped me for the workforce. This academy allowed me to refine my skills and further my knowdlege as a SWD.
                                 </p>
                                 <header>
@@ -99,8 +99,8 @@ export default function SplashPage() {
                         <hr></hr>
                         <section id='five'>
                             <h2>Work Experience</h2>
-                            <div class="row">
-                                <div class="col-6 col-12-xsmall">
+                            <div className="row">
+                                <div className="col-6 col-12-xsmall">
                                     <h4 style={{marginBottom: '3px'}}>Wells Fargo</h4>
                                     <p className="under-col-subtitle">Teller, Sept 2021 - Feb 2022, Santa Ana, CA</p>
                                     <ul>
@@ -116,13 +116,14 @@ export default function SplashPage() {
                                         <li>Assist guests with any needs or requests that are possible.</li>
                                     </ul>
                                 </div>
-                                <div class="col-6 col-12-xsmall">
+                                <div className="col-6 col-12-xsmall">
                                     <h4 style={{marginBottom: '3px'}}>Swifty Gadgets LLC</h4>
                                     <p className="under-col-subtitle">CEO/Owner, Apr 2020 - Aug 2022, Orange County, CA</p>
                                     <ul>
                                         <li>Target customers to increase sales and interactions.</li>
                                         <li>Keep track of all finances and investments within the company.</li>
                                         <li>Reach new customers with the use of social media and other merchant platforms.</li>
+                                        <li>Update inventory and costs utizling programs such as Wave.</li>
                                     </ul>
                                     <h4 style={{marginBottom: '3px'}}>Macys</h4>
                                     <p className="under-col-subtitle">Suit Specialist, March 2019 - Feb 2020, Orange County, CA</p>
@@ -136,37 +137,37 @@ export default function SplashPage() {
                         </section>
                         <hr></hr>
                         <section id="resume-holder">
-                            <div class="box alt">
-                                <div class="row gtr-50 gtr-uniform">
-                                    {/* <div class="col-12"><span class="image fit"><img src="/static/resume-heading.png" alt="" /></span></div> */}
+                            <div className="box alt">
+                                <div className="row gtr-50 gtr-uniform">
+                                    {/* <div className="col-12"><span className="image fit"><img src="/static/resume-heading.png" alt="" /></span></div> */}
                                 </div>
                                 <img id='resume-picture' src="/static/Israel-Arvizu-resume.jpg" alt="resume"/>
                             </div>
-                            <a href="/static/Israel-Arvizu-pdf-resume.pdf" class="button primary icon solid fa-download" download="Israel_Arvizu_Resume">Download</a>
+                            <a href="/static/Israel-Arvizu-pdf-resume.pdf" className="button primary icon solid fa-download" download="Israel_Arvizu_Resume">Download</a>
                         </section>
                         </section>
 
                         <section>
-                                <div class="box alt">
-                                    <div class="row gtr-50 gtr-uniform">
-                                        <div class="col-12"><span class="image fit"><img src="/static/TechnicalHeading.png" alt="" /></span></div>
-                                        <div class="col-2"><span class="image fit"><img id="image-skill-block" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" /></span></div>
-                                        <div class="col-2"><span class="image fit"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-plain.svg" /></span></div>
-                                        <div class="col-2"><span class="image fit"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-plain.svg" /></span></div>
-                                        <div class="col-2"><span class="image fit"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" /></span></div>
-                                        <div class="col-2"><span class="image fit"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg" /></span></div>
-                                        <div class="col-2"><span class="image fit"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg" /></span></div>
-                                        <div class="col-2"><span class="image fit"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-plain.svg" /></span></div>
-                                        <div class="col-2"><span class="image fit"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlalchemy/sqlalchemy-plain.svg" /></span></div>
-                                        <div class="col-2"><span class="image fit"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sequelize/sequelize-original.svg" /></span></div>
-                                        <div class="col-2"><span class="image fit"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg" /></span></div>
-                                        <div class="col-2"><span class="image fit"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original-wordmark.svg" /></span></div>
-                                        <div class="col-2"><span class="image fit"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-plain-wordmark.svg" /></span></div>
-                                        <div class="col-2"><span class="image fit"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-plain.svg" /></span></div>
-                                        <div class="col-2"><span class="image fit"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-plain.svg" /></span></div>
-                                        <div class="col-2"><span class="image fit"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain.svg" /></span></div>
-                                        <div class="col-2"><span class="image fit"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" /></span></div>
-                                        <div class="col-2"><span class="image fit"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" /></span></div>
+                                <div className="box alt">
+                                    <div className="row gtr-50 gtr-uniform">
+                                        <div className="col-12"><span className="image fit"><img src="/static/TechnicalHeading.png" alt="" /></span></div>
+                                        <div className="col-2"><span className="image fit"><img id="image-skill-block" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" /></span></div>
+                                        <div className="col-2"><span className="image fit"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-plain.svg" /></span></div>
+                                        <div className="col-2"><span className="image fit"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-plain.svg" /></span></div>
+                                        <div className="col-2"><span className="image fit"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" /></span></div>
+                                        <div className="col-2"><span className="image fit"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg" /></span></div>
+                                        <div className="col-2"><span className="image fit"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg" /></span></div>
+                                        <div className="col-2"><span className="image fit"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-plain.svg" /></span></div>
+                                        <div className="col-2"><span className="image fit"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlalchemy/sqlalchemy-plain.svg" /></span></div>
+                                        <div className="col-2"><span className="image fit"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sequelize/sequelize-original.svg" /></span></div>
+                                        <div className="col-2"><span className="image fit"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg" /></span></div>
+                                        <div className="col-2"><span className="image fit"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original-wordmark.svg" /></span></div>
+                                        <div className="col-2"><span className="image fit"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-plain-wordmark.svg" /></span></div>
+                                        <div className="col-2"><span className="image fit"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-plain.svg" /></span></div>
+                                        <div className="col-2"><span className="image fit"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-plain.svg" /></span></div>
+                                        <div className="col-2"><span className="image fit"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain.svg" /></span></div>
+                                        <div className="col-2"><span className="image fit"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" /></span></div>
+                                        <div className="col-2"><span className="image fit"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" /></span></div>
                                     </div>
                                 </div>
                             </section>
@@ -177,19 +178,19 @@ export default function SplashPage() {
                         <section id="three">
                             <h2>Get In Touch</h2>
                             <p>To contact me you can reach me at any of these contact points. I am usually available from 9am - 10pm PST. I am always open to new opportunities and events. Thank you for your time!</p>
-                            <div class="row">
-                                <div class="col-4 col-12-small">
-                                    <ul class="labeled-icons">
+                            <div className="row">
+                                <div className="col-4 col-12-small">
+                                    <ul className="labeled-icons">
                                         <li>
-                                            <h3 class="icon solid fa-home"><span class="label">Address</span></h3>
+                                            <h3 className="icon solid fa-home"><span className="label">Address</span></h3>
                                             Orange County, CA
                                         </li>
                                         <li>
-                                            <h3 class="icon solid fa-mobile-alt"><span class="label">Phone</span></h3>
+                                            <h3 className="icon solid fa-mobile-alt"><span className="label">Phone</span></h3>
                                             714-804-6052
                                         </li>
                                         <li>
-                                            <h3 class="icon solid fa-envelope"><span class="label">Email</span></h3>
+                                            <h3 className="icon solid fa-envelope"><span className="label">Email</span></h3>
                                             <a href="mailto:israelarvizuofficial@gmail.com">israelarvizuofficial@gmail.com</a>
                                         </li>
                                     </ul>
@@ -206,8 +207,8 @@ export default function SplashPage() {
                                 <hr />
 
                             <h4>Lists</h4>
-                            <div class="row">
-                                <div class="col-6 col-12-xsmall">
+                            <div className="row">
+                                <div className="col-6 col-12-xsmall">
                                     <h5>Unordered</h5>
                                     <ul>
                                         <li>Dolor pulvinar etiam magna etiam.</li>
@@ -215,13 +216,13 @@ export default function SplashPage() {
                                         <li>Felis enim feugiat dolore viverra.</li>
                                     </ul>
                                     <h5>Alternate</h5>
-                                    <ul class="alt">
+                                    <ul className="alt">
                                         <li>Dolor pulvinar etiam magna etiam.</li>
                                         <li>Sagittis adipiscing lorem eleifend.</li>
                                         <li>Felis enim feugiat dolore viverra.</li>
                                     </ul>
                                 </div>
-                                <div class="col-6 col-12-xsmall">
+                                <div className="col-6 col-12-xsmall">
                                     <h5>Ordered</h5>
                                     <ol>
                                         <li>Dolor pulvinar etiam magna etiam.</li>
@@ -232,48 +233,48 @@ export default function SplashPage() {
                                         <li>Felis enim feugiat dolore viverra.</li>
                                     </ol>
                                     <h5>Icons</h5>
-                                    <ul class="icons">
-                                        <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-                                        <li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-                                        <li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-                                        <li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
-                                        <li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
-                                        <li><a href="#" class="icon brands fa-tumblr"><span class="label">Tumblr</span></a></li>
+                                    <ul className="icons">
+                                        <li><a href="#" className="icon brands fa-twitter"><span className="label">Twitter</span></a></li>
+                                        <li><a href="#" className="icon brands fa-facebook-f"><span className="label">Facebook</span></a></li>
+                                        <li><a href="#" className="icon brands fa-instagram"><span className="label">Instagram</span></a></li>
+                                        <li><a href="#" className="icon brands fa-github"><span className="label">Github</span></a></li>
+                                        <li><a href="#" className="icon brands fa-dribbble"><span className="label">Dribbble</span></a></li>
+                                        <li><a href="#" className="icon brands fa-tumblr"><span className="label">Tumblr</span></a></li>
                                     </ul>
                                 </div>
                             </div>
                             <h5>Actions</h5>
-                            <ul class="actions">
-                                <li><a href="#" class="button primary">Default</a></li>
-                                <li><a href="#" class="button">Default</a></li>
+                            <ul className="actions">
+                                <li><a href="#" className="button primary">Default</a></li>
+                                <li><a href="#" className="button">Default</a></li>
                             </ul>
-                            <ul class="actions small">
-                                <li><a href="#" class="button primary small">Small</a></li>
-                                <li><a href="#" class="button small">Small</a></li>
+                            <ul className="actions small">
+                                <li><a href="#" className="button primary small">Small</a></li>
+                                <li><a href="#" className="button small">Small</a></li>
                             </ul>
-                            <div class="row">
-                                <div class="col-6 col-12-small">
-                                    <ul class="actions stacked">
-                                        <li><a href="#" class="button primary">Default</a></li>
-                                        <li><a href="#" class="button">Default</a></li>
+                            <div className="row">
+                                <div className="col-6 col-12-small">
+                                    <ul className="actions stacked">
+                                        <li><a href="#" className="button primary">Default</a></li>
+                                        <li><a href="#" className="button">Default</a></li>
                                     </ul>
                                 </div>
-                                <div class="col-6 col-12-small">
-                                    <ul class="actions stacked">
-                                        <li><a href="#" class="button primary small">Small</a></li>
-                                        <li><a href="#" class="button small">Small</a></li>
+                                <div className="col-6 col-12-small">
+                                    <ul className="actions stacked">
+                                        <li><a href="#" className="button primary small">Small</a></li>
+                                        <li><a href="#" className="button small">Small</a></li>
                                     </ul>
                                 </div>
-                                <div class="col-6 col-12-small">
-                                    <ul class="actions stacked">
-                                        <li><a href="#" class="button primary fit">Default</a></li>
-                                        <li><a href="#" class="button fit">Default</a></li>
+                                <div className="col-6 col-12-small">
+                                    <ul className="actions stacked">
+                                        <li><a href="#" className="button primary fit">Default</a></li>
+                                        <li><a href="#" className="button fit">Default</a></li>
                                     </ul>
                                 </div>
-                                <div class="col-6 col-12-small">
-                                    <ul class="actions stacked">
-                                        <li><a href="#" class="button primary small fit">Small</a></li>
-                                        <li><a href="#" class="button small fit">Small</a></li>
+                                <div className="col-6 col-12-small">
+                                    <ul className="actions stacked">
+                                        <li><a href="#" className="button primary small fit">Small</a></li>
+                                        <li><a href="#" className="button small fit">Small</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -282,7 +283,7 @@ export default function SplashPage() {
                             <section>
                                 <h4>Table</h4>
                                 <h5>Default</h5>
-                                <div class="table-wrapper">
+                                <div className="table-wrapper">
                                     <table>
                                         <thead>
                                             <tr>
@@ -328,8 +329,8 @@ export default function SplashPage() {
                                 </div>
 
                                 <h5>Alternate</h5>
-                                <div class="table-wrapper">
-                                    <table class="alt">
+                                <div className="table-wrapper">
+                                    <table className="alt">
                                         <thead>
                                             <tr>
                                                 <th>Name</th>
@@ -376,44 +377,44 @@ export default function SplashPage() {
 
                             <section>
                                 <h4>Buttons</h4>
-                                <ul class="actions">
-                                    <li><a href="#" class="button primary">Primary</a></li>
-                                    <li><a href="#" class="button">Default</a></li>
+                                <ul className="actions">
+                                    <li><a href="#" className="button primary">Primary</a></li>
+                                    <li><a href="#" className="button">Default</a></li>
                                 </ul>
-                                <ul class="actions">
-                                    <li><a href="#" class="button large">Large</a></li>
-                                    <li><a href="#" class="button">Default</a></li>
-                                    <li><a href="#" class="button small">Small</a></li>
+                                <ul className="actions">
+                                    <li><a href="#" className="button large">Large</a></li>
+                                    <li><a href="#" className="button">Default</a></li>
+                                    <li><a href="#" className="button small">Small</a></li>
                                 </ul>
-                                <ul class="actions fit">
-                                    <li><a href="#" class="button primary fit">Fit</a></li>
-                                    <li><a href="#" class="button fit">Fit</a></li>
+                                <ul className="actions fit">
+                                    <li><a href="#" className="button primary fit">Fit</a></li>
+                                    <li><a href="#" className="button fit">Fit</a></li>
                                 </ul>
-                                <ul class="actions fit small">
-                                    <li><a href="#" class="button primary fit small">Fit + Small</a></li>
-                                    <li><a href="#" class="button fit small">Fit + Small</a></li>
+                                <ul className="actions fit small">
+                                    <li><a href="#" className="button primary fit small">Fit + Small</a></li>
+                                    <li><a href="#" className="button fit small">Fit + Small</a></li>
                                 </ul>
-                                <ul class="actions">
-                                    <li><a href="#" class="button primary icon solid fa-download">Icon</a></li>
-                                    <li><a href="#" class="button icon solid fa-download">Icon</a></li>
+                                <ul className="actions">
+                                    <li><a href="#" className="button primary icon solid fa-download">Icon</a></li>
+                                    <li><a href="#" className="button icon solid fa-download">Icon</a></li>
                                 </ul>
-                                <ul class="actions">
-                                    <li><span class="button primary disabled">Primary</span></li>
-                                    <li><span class="button disabled">Default</span></li>
+                                <ul className="actions">
+                                    <li><span className="button primary disabled">Primary</span></li>
+                                    <li><span className="button disabled">Default</span></li>
                                 </ul>
                             </section>
 
                             <section>
                                 <h4>Form</h4>
                                 <form method="post" action="#">
-                                    <div class="row gtr-uniform gtr-50">
-                                        <div class="col-6 col-12-xsmall">
+                                    <div className="row gtr-uniform gtr-50">
+                                        <div className="col-6 col-12-xsmall">
                                             <input type="text" name="demo-name" id="demo-name" value="" placeholder="Name" />
                                         </div>
-                                        <div class="col-6 col-12-xsmall">
+                                        <div className="col-6 col-12-xsmall">
                                             <input type="email" name="demo-email" id="demo-email" value="" placeholder="Email" />
                                         </div>
-                                        <div class="col-12">
+                                        <div className="col-12">
                                             <select name="demo-category" id="demo-category">
                                                 <option value="">- Category -</option>
                                                 <option value="1">Manufacturing</option>
@@ -422,32 +423,32 @@ export default function SplashPage() {
                                                 <option value="1">Human Resources</option>
                                             </select>
                                         </div>
-                                        <div class="col-4 col-12-small">
+                                        <div className="col-4 col-12-small">
                                             <input type="radio" id="demo-priority-low" name="demo-priority" checked/>
                                             <label for="demo-priority-low">Low Priority</label>
                                         </div>
-                                        <div class="col-4 col-12-small">
+                                        <div className="col-4 col-12-small">
                                             <input type="radio" id="demo-priority-normal" name="demo-priority"/>
                                             <label for="demo-priority-normal">Normal Priority</label>
                                         </div>
-                                        <div class="col-4 col-12-small">
+                                        <div className="col-4 col-12-small">
                                             <input type="radio" id="demo-priority-high" name="demo-priority"/>
                                             <label for="demo-priority-high">High Priority</label>
                                         </div>
-                                        <div class="col-6 col-12-small">
+                                        <div className="col-6 col-12-small">
                                             <input type="checkbox" id="demo-copy" name="demo-copy"/>
                                             <label for="demo-copy">Email me a copy of this message</label>
                                         </div>
-                                        <div class="col-6 col-12-small">
+                                        <div className="col-6 col-12-small">
                                             <input type="checkbox" id="demo-human" name="demo-human" checked/>
                                             <label for="demo-human">I am a human and not a robot</label>
                                         </div>
-                                        <div class="col-12">
+                                        <div className="col-12">
                                             <textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
                                         </div>
-                                        <div class="col-12">
-                                            <ul class="actions">
-                                                <li><input type="submit" value="Send Message" class="primary" /></li>
+                                        <div className="col-12">
+                                            <ul className="actions">
+                                                <li><input type="submit" value="Send Message" className="primary" /></li>
                                                 <li><input type="reset" value="Reset" /></li>
                                             </ul>
                                         </div>
@@ -457,37 +458,37 @@ export default function SplashPage() {
 
                             <section>
                                 <h4>Image</h4>
-                                <div class="box alt">
-                                    <div class="row gtr-50 gtr-uniform">
-                                        <div class="col-12"><span class="image fit"><img src="images/fulls/05.jpg" alt="" /></span></div>
-                                        <div class="col-4"><span class="image fit"><img src="images/thumbs/01.jpg" alt="" /></span></div>
-                                        <div class="col-4"><span class="image fit"><img src="images/thumbs/02.jpg" alt="" /></span></div>
-                                        <div class="col-4"><span class="image fit"><img src="images/thumbs/03.jpg" alt="" /></span></div>
-                                        <div class="col-4"><span class="image fit"><img src="images/thumbs/04.jpg" alt="" /></span></div>
-                                        <div class="col-4"><span class="image fit"><img src="images/thumbs/05.jpg" alt="" /></span></div>
-                                        <div class="col-4"><span class="image fit"><img src="images/thumbs/06.jpg" alt="" /></span></div>
-                                        <div class="col-4"><span class="image fit"><img src="images/thumbs/03.jpg" alt="" /></span></div>
-                                        <div class="col-4"><span class="image fit"><img src="images/thumbs/02.jpg" alt="" /></span></div>
-                                        <div class="col-4"><span class="image fit"><img src="images/thumbs/01.jpg" alt="" /></span></div>
+                                <div className="box alt">
+                                    <div className="row gtr-50 gtr-uniform">
+                                        <div className="col-12"><span className="image fit"><img src="images/fulls/05.jpg" alt="" /></span></div>
+                                        <div className="col-4"><span className="image fit"><img src="images/thumbs/01.jpg" alt="" /></span></div>
+                                        <div className="col-4"><span className="image fit"><img src="images/thumbs/02.jpg" alt="" /></span></div>
+                                        <div className="col-4"><span className="image fit"><img src="images/thumbs/03.jpg" alt="" /></span></div>
+                                        <div className="col-4"><span className="image fit"><img src="images/thumbs/04.jpg" alt="" /></span></div>
+                                        <div className="col-4"><span className="image fit"><img src="images/thumbs/05.jpg" alt="" /></span></div>
+                                        <div className="col-4"><span className="image fit"><img src="images/thumbs/06.jpg" alt="" /></span></div>
+                                        <div className="col-4"><span className="image fit"><img src="images/thumbs/03.jpg" alt="" /></span></div>
+                                        <div className="col-4"><span className="image fit"><img src="images/thumbs/02.jpg" alt="" /></span></div>
+                                        <div className="col-4"><span className="image fit"><img src="images/thumbs/01.jpg" alt="" /></span></div>
                                     </div>
                                 </div>
                                 <h5>Left &amp; Right</h5>
-                                <p><span class="image left"><img src="images/avatar.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
-                                <p><span class="image right"><img src="images/avatar.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
+                                <p><span className="image left"><img src="images/avatar.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
+                                <p><span className="image right"><img src="images/avatar.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
                             </section> */}
 
                 </div>
 
             {/* <!-- Footer --> */}
                 <footer id="footer">
-                    <div class="inner">
-                        <ul class="icons">
-                            <li><a href="https://www.linkedin.com/in/israel-arvizu/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-                            <li><a href="https://github.com/israel-arvizu" class="icon brands fa-github"><span class="label">Github</span></a></li>
-                            <li><a href="https://angel.co/u/israel-arvizu" class="icon brands fa-angellist"><span class="label">AngelList</span></a></li>
-                            <li><a href="mailto:israelarvizuofficial@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+                    <div className="inner">
+                        <ul className="icons">
+                            <li><a href="https://www.linkedin.com/in/israel-arvizu/" className="icon brands fa-linkedin"><span className="label">LinkedIn</span></a></li>
+                            <li><a href="https://github.com/israel-arvizu" className="icon brands fa-github"><span className="label">Github</span></a></li>
+                            <li><a href="https://angel.co/u/israel-arvizu" className="icon brands fa-angellist"><span className="label">AngelList</span></a></li>
+                            <li><a href="mailto:israelarvizuofficial@gmail.com" className="icon solid fa-envelope"><span className="label">Email</span></a></li>
                         </ul>
-                        <ul class="copyright">
+                        <ul className="copyright">
                             <li>&copy;Israel Arvizu 2022</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
                         </ul>
                     </div>
@@ -500,6 +501,6 @@ export default function SplashPage() {
                 <script src="assets/js/breakpoints.min.js"></script>
                 <script src="assets/js/util.js"></script>
                 <script src="assets/js/main.js"></script>
-        </body>
+        </div>
     )
 }
