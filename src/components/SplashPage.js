@@ -34,40 +34,48 @@ export default function SplashPage() {
                             <header className="major">
                                 <h2 style={{marginBottom: "10px"}}>About Me</h2>
                             </header>
-                            <p style={{fontSize: "20px"}}>At a very young age I knew my passion was to be involved with tech and what better way to do it than to be a software engineer.
-                                Entering college immediately I pursued my associates in computer science learning C++ and Java alongside my general-Ed classNamees.
+                            {/* <p style={{fontSize: "20px"}}>At a very young age I knew my passion was to be involved with tech and what better way to do it than to be a software engineer.
+                                Entering college immediately I pursued my associates in computer science learning C++ and Java alongside my general-Ed classes.
                                 All this while I worked part-time jobs on the side with companies such as Wells Fargo, Target, Macys, Hollister, etc.
                                 Even though these jobs taught me a lot of experience in the real world I simply knew that working customer service wasn't for me and couldn't wait for the day to come where I would start my programming career.
                                 <br/> I realized that although college is a good route to enter the tech world, it is not the only route; so in 2022 I took a break from college to broaden my knowledge in the SWE field and
                                 completed a 6-month boot-camp called AppAcademy. I learned extensive knowledge on languages and frameworks where I can truly say I am a full-stack developer.
+                                I love to create things and solve problems which is why my love for computer science is so heavy and will continue to expand over my lifetime.</p> */}
+                            <p><span className="image right"><img src="/static/aboutUs-1.JPG" alt="Israel Arvizu About Me" /></span>At a very young age I knew my passion was to be involved with tech and what better way to do it than to be a software engineer.
+                                Entering college immediately I pursued my associates in computer science learning C++ and Java alongside my general-Ed classes.
+                                All this while I worked part-time jobs on the side with companies such as Wells Fargo, Target, Macys, Hollister, etc.
+                                Even though these jobs taught me a lot of experience in the real world I simply knew that working customer service wasn't for me and couldn't wait for the day to come where I would start my programming career.
+                                I realized that although college is a good route to enter the tech world, it is not the only route; so in 2022 I took a break from college to broaden my knowledge in the SWE field and
+                                completed a 6-month boot-camp called AppAcademy. I learned extensive knowledge on languages and frameworks where I can truly say I am a full-stack developer.
                                 I love to create things and solve problems which is why my love for computer science is so heavy and will continue to expand over my lifetime.</p>
-                            {/* <ul className="actions">
-                                <li><a href="#" className="button">Learn More</a></li>
-                            </ul> */}
                         </section>
                     {/* <!-- Two --> */}
                         <section id="two">
                             <h2>Recent Work</h2>
                             <div className="row">
                                 <article className="col-6 col-12-xsmall work-item">
-                                    <a href="https://insta-flick.herokuapp.com/" className="image fit thumb"><img src="/static/Instaflick-home.JPG" alt="" /></a>
+                                    <a href="https://insta-flick.herokuapp.com/" className="image fit thumb"><img src="/static/Instaflick-home.JPG" alt="Instaflick Home" /></a>
                                     <h3>Instaflick</h3>
-                                    <p>Instaflick is a Instagram clone utilizing Javascript, Python, SQL, React, Redux, and many other tools. Users are allowed to create posts and comments and search for their friends. </p>
+                                    <p className="under-col-subtitle">Solo Project - A <a href="https://www.instagram.com/">Instagram</a> clone </p>
+                                    <p>Instaflick is contructed integrating the same feautures that Instagram offers. Users are allowed to create posts, comments, likes and search for their friends all designed with the same UI and RESTful API.</p>
                                 </article>
                                 <article className="col-6 col-12-xsmall work-item">
-                                    <a href="https://hipresort.herokuapp.com/" className="image fit thumb"><img src="/static/HipResort.JPG" alt="" /></a>
+                                    <a href="https://hipresort.herokuapp.com/" className="image fit thumb"><img src="/static/HipResortUpd.JPG" alt="Hip Resort Home" /></a>
                                     <h3>HipResort</h3>
-                                    <p>HipResort is a web application for booking and hosting resorts all over the world. This project was inspired by HipCamp and has a very similar style. </p>
+                                    <p className="under-col-subtitle">Solo Project - A <a href="https://www.hipcamp.com/en-US">HipCamp</a> Clone</p>
+                                    <p>HipResort is a web application for booking and hosting resorts all over the world. Altought this project uses mock data and is not actually associated with any resorts, it gives users the same experience that a real booking website would give. </p>
                                 </article>
                                 <article className="col-6 col-12-xsmall work-item">
-                                    <a href="https://alphahood.herokuapp.com/" className="image fit thumb"><img src="/static/Alphahood.JPG" alt="" /></a>
+                                    <a href="https://alphahood.herokuapp.com/" className="image fit thumb"><img src="/static/Alphahood.JPG" alt="AlphaHood Home" /></a>
                                     <h3>AlphaHood</h3>
-                                    <p>AlphaHood is a mock stock broker website that takes inspiration from the popular website RobinHood. Similarly to RobinHood users have a wallets, watchlists, portfolio's, and to increase the experience even more AlphaHood uses a API package (Yfinance) to fetch the latest stock market data </p>
+                                    <p className="under-col-subtitle">4-Man Project - A <a href="https://robinhood.com/us/en/">RobinHood</a> clone </p>
+                                    <p>AlphaHood is a mock stock broker website that takes inspiration from the popular website RobinHood. Similarly to RobinHood users have a wallets, watchlists, portfolio's, and to increase the experience even more AlphaHood uses a third-party API package (Yfinance) to fetch the latest stock market data </p>
                                 </article>
                                 <article className="col-6 col-12-xsmall work-item">
-                                    <a href="https://musichunt-app.herokuapp.com/" className="image fit thumb"><img src="/static/MusicHunt.JPG" alt="" /></a>
+                                    <a href="https://musichunt-app.herokuapp.com/" className="image fit thumb"><img src="/static/MusicHunt.JPG" alt="Music Hunt Home" /></a>
                                     <h3>Music Hunt</h3>
-                                    <p>Music Hunt, a "Product Hunt Co." clone, is a website where you can browse your favorite albums and share your music with other music lovers by favoriting albums, showing off your favorite's, and posting reviews.</p>
+                                    <p className="under-col-subtitle">3-Man Project - A <a href="https://www.producthunt.com/">Product Hunt</a> clone </p>
+                                    <p>Music Hunt was developed with the idea for users to browse your favorite albums and share your music with other music lovers by favoriting albums, showing off your favorite's, and posting reviews. This is my first project developed with App Academy.</p>
                                 </article>
                             </div>
                             <ul className="actions">
@@ -104,9 +112,9 @@ export default function SplashPage() {
                                     <h4 style={{marginBottom: '3px'}}>Wells Fargo</h4>
                                     <p className="under-col-subtitle">Teller, Sept 2021 - Feb 2022, Santa Ana, CA</p>
                                     <ul>
-                                        <li>Provide excellent service in finances and customer service.</li>
-                                        <li>Work with management to improve customer service, teamwork, and problem solving.</li>
-                                        <li>Efficient use of personal computer applications and the adaptation of new required software.</li>
+                                        <li>Operated with management to improve customer service and teamwork to efficiently and diligently assist customers as we were the #1 busiest branch in the lower Orange County sector.</li>
+                                        <li>Efficient use of personal computer applications and the adaptation of new required software along with an assessment of risk control for any possible malware from third-party links or emails.</li>
+                                        <li>Conducted due diligence and thorough verification of all relevant documents in my everyday tasks to conclude if any possible losses are at hand from possible counterfeit documents.</li>
                                     </ul>
                                     <h4 style={{marginBottom: '3px'}}>Target</h4>
                                     <p className="under-col-subtitle">Fufillment Expert, May 2020 - Aug 2021, Santa Ana, CA</p>
@@ -120,10 +128,10 @@ export default function SplashPage() {
                                     <h4 style={{marginBottom: '3px'}}>Swifty Gadgets LLC</h4>
                                     <p className="under-col-subtitle">CEO/Owner, Apr 2020 - Aug 2022, Orange County, CA</p>
                                     <ul>
-                                        <li>Target customers to increase sales and interactions.</li>
-                                        <li>Keep track of all finances and investments within the company.</li>
-                                        <li>Reach new customers with the use of social media and other merchant platforms.</li>
-                                        <li>Update inventory and costs utizling programs such as Wave.</li>
+                                        <li>Run and manage all tasks while keeping track of all finances and investments within the company with a volume of over tens of thousands of dollars.</li>
+                                        <li>Generated a 30% profit margin with over roughly 100K in revenue over the calendar year of 2021.
+                                        Purchase and sell in-demand products to customers such as private clients or wholesale companies with a CA seller's permit.</li>
+                                        <li>Confirm and comply with the company's financials, payroll, and organizational structure with all federal, state, and local laws and regulations.</li>
                                     </ul>
                                     <h4 style={{marginBottom: '3px'}}>Macys</h4>
                                     <p className="under-col-subtitle">Suit Specialist, March 2019 - Feb 2020, Orange County, CA</p>
@@ -143,7 +151,7 @@ export default function SplashPage() {
                                 </div>
                                 <img id='resume-picture' src="/static/Israel-Arvizu-resume.jpg" alt="resume"/>
                             </div>
-                            <a href="/static/Israel-Arvizu-pdf-resume.pdf" className="button primary icon solid fa-download" download="Israel_Arvizu_Resume">Download</a>
+                            <a href="/static/Israel-Arvizu-resume.pdf" className="button primary icon solid fa-download" download="Israel_Arvizu_Resume">Download</a>
                         </section>
                         </section>
 
@@ -489,7 +497,7 @@ export default function SplashPage() {
                             <li><a href="mailto:israelarvizuofficial@gmail.com" className="icon solid fa-envelope"><span className="label">Email</span></a></li>
                         </ul>
                         <ul className="copyright">
-                            <li>&copy;Israel Arvizu 2022</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+                            <li>&copy;Israel Arvizu 2022</li>
                         </ul>
                     </div>
                 </footer>
